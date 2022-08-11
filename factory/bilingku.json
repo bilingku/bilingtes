@@ -1,0 +1,9 @@
+{
+	"name": "bilingku",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "23ff1fc3-60bf-487d-8f49-60f53aaf1c84",
+		"tenantId": "f0c27a61-bd5d-41fc-8af3-2e3668ad48aa"
+	}
+}
