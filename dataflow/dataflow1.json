@@ -6,7 +6,7 @@
 			"sources": [
 				{
 					"linkedService": {
-						"referenceName": "linkedService1",
+						"referenceName": "CopyActivityTabularToTabular",
 						"type": "LinkedServiceReference"
 					},
 					"name": "source1"
