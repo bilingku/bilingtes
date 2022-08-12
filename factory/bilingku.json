@@ -1,5 +1,13 @@
 {
 	"name": "bilingku",
+	"properties": {
+		"globalParameters": {
+			"try": {
+				"type": "string",
+				"value": "9"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
