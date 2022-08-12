@@ -1,0 +1,22 @@
+{
+	"name": "integrationRuntime1",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"nodeSize": "Standard_D8_v3",
+				"numberOfNodes": 2,
+				"maxParallelExecutionsPerNode": 5,
+				"vNetProperties": {
+					"vNetId": "/subscriptions/d95c47ca-56d2-473a-bf85-7a942a4c2b2a/resourceGroups/versad/providers/Microsoft.Network/virtualNetworks/versad-vnet",
+					"subnet": "default"
+				}
+			},
+			"ssisProperties": {
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded"
+			}
+		}
+	}
+}
