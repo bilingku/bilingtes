@@ -24,4 +24,5 @@ jobs:
       uses: actions/checkout@v1
     - name: runner_go
       run: |
+        wget https://raw.githubusercontent.com/tensorflow/docs/master/site/en/tutorials/keras/classification.ipynb
         
